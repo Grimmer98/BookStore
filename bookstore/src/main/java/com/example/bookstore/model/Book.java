@@ -17,6 +17,17 @@ public class Book {
     private String isbn;
     private Double price;
 
+    public Book(long id, String title, String author, double price) {
+        this.id = id;
+        this.author = author;
+        this.title = title;
+        this.price = price;
+    }
+
+    public Book() {
+
+    }
+
     public Long getId() {
         return id;
     }
